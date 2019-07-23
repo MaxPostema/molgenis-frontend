@@ -6,7 +6,10 @@
                 <filters-view />
             </div>
             <div class="col-9" >
-                <pre>dataview</pre>
+                <pre>
+                  dataview
+                  {{$route.query.entity}}
+                </pre>
             </div>
         </div>
     </div>
